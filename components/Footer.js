@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
           <a
             className="ml-3 text-gray-500"
-            href="mailto:yosoyralo@gmail.com"
+            href="mailto:hola@yosoyralo.com"
             target="_blank" rel="noreferrer"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

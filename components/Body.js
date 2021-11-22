@@ -84,11 +84,11 @@ const Body = ({language}, props) => {
               {
                 language === "spanish" ?
               <>
-              Cada paso es una pregunta y cada respuesta cerrada y absoluta algo de lo que huír. Me siento cómodo en la incertidumbre y te invito a que hagas lo mismo. Así que pregúntate y cuestiona cada cosa que te rodea y pregúntame a mí si te apetece. Te prometo no resolver tus dudas mas tampoco defraudarte. Haz clic para enviarme un email a mi dirección <a href="mailto:yosoyralo@gmail.com">yosoyralo@gmail.com</a>
+              Cada paso es una pregunta y cada respuesta cerrada y absoluta algo de lo que huír. Me siento cómodo en la incertidumbre y te invito a que hagas lo mismo. Así que pregúntate y cuestiona cada cosa que te rodea y pregúntame a mí si te apetece. Te prometo no resolver tus dudas mas tampoco defraudarte. Haz clic para enviarme un email a mi dirección <a href="mailto:hola@yosoyralo.com">hola@yosoyralo.com</a>
               </> 
               :
               <>
-              Each step is a question and each closed and absolute answer is something to flee from. I feel comfortable in the uncertainty and I invite you to do the same. So ask yourself and question everything around you and ask me if you feel like it. I promise not to solve your doubts but neither will I disappoint you. Click to send me an email to my address <a href="mailto:yosoyralo@gmail.com">yosoyralo@gmail.com</a>
+              Each step is a question and each closed and absolute answer is something to flee from. I feel comfortable in the uncertainty and I invite you to do the same. So ask yourself and question everything around you and ask me if you feel like it. I promise not to solve your doubts but neither will I disappoint you. Click to send me an email to my address <a href="mailto:hola@yosoyralo.com">hola@yosoyralo.com</a>
               </>
               }
               </p>
