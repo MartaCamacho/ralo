@@ -66,9 +66,9 @@ const Welcome = ({changeLanguage, language}, props) => {
               <p className="">
               {
                 language === "spanish" ?
-              "rALo es un pseudónimo con el que he decidido firmar todo mi trabajo creativo. Soy un hombre nacido en el 82 heterosexual y Español. ¿Por qué utilizar un pseudónimo? Por esconderme un poco. Por focalizar mi creatividad. Porque tanto si te importa lo que rALo tiene que decir como si no, es irrelevante quien sea. Por todo eso y por todo lo contrario, elige tu opción." 
+              "Soy un hombre nacido y viviendo en España. rALo es el pseudónimo con el que firmo mis propuestas creativas. Me gusta utilizar un pseudónimo porque me ayuda a focalizar y separar esa parte de mi vida del resto. Tanto si te gusta lo que hago como si no, es irrelevante quien sea rALo." 
               :
-              "rALo is the pseudonym I have decided to use to sign all my creative work. I am a man born in 82 heterosexual and Spanish. Why use a pseudonym? To hide a little. To focus my creativity.  Because whether you care what rALo has to say or not, it is irrelevant who he is. Or just because, take your pick."
+              " I am a man born and living in Spain. rALo is the pseudonym I use to sign all my creative work. I like to use a pseudonym because it helps me focus all my creative work and separate that part of my life from the rest. Whether you enjoy what rALo has to say or not, it is irrelevant who he is. "
               }
               </p>
             </div>

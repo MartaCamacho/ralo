@@ -65,7 +65,7 @@ const Body = ({language}, props) => {
                 </>
                 :
                 <>
-                I collaborate with the photographer José García @ jose35mm in the Imperfect Photography project (@ foto8rafia_imp). I am part of the humor collective NOT YET (@nnnnnotyet) where, apart from recording a Podcast and creating graphic content, we plan to expand the project with videos. <a href="http://www.notyet.es" target="_blank" rel="noreferrer">Click here</a> to take a look.
+                I collaborate with the photographer José García @ jose35mm in the Imperfect Photography project (@ foto8rafia_imp). I am part of the humor collective NOT YET (@nnnnnotyet) where, apart from recording a Podcast and creating graphic content, we plan to expand the project with videos. <a href="http://www.notyet.es" target="_blank" rel="noreferrer">Click here</a> to have a look.
                 </>
               }
               </p>

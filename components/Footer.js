@@ -13,14 +13,14 @@ const Footer = () => {
               />
           <span className="">rALo</span>
         <p className="">
-          © {new Date().getFullYear()} —
+          © {new Date().getFullYear()} — 
           <a
             href="https://www.instagram.com/arrobaralo/"
             className="text-gray-600 ml-1"
             rel="noopener noreferrer"
             target="_blank"
           >
-            @arrobaralo
+             @arrobaralo
           </a>
         </p>
         </div>
