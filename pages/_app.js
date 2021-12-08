@@ -1,7 +1,14 @@
+import React, {useState, useEffect} from "react";
 import "../styles/global.css";
 import Head from "next/head";
 
 export default function MyApp({ Component, pageProps }) {
+  const [baseUrl, setBaseUrl] = useState("http://www.yosoyralo.com");
+
+  useEffect(() => {
+    setBaseUrl(window.location.pathname);
+  }, []);
+
   return (
     <>
       <Head>
@@ -22,10 +29,10 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="twitter:title" content="rALo"/>
         <meta content="yosoyralo.com" name="twitter:site"/>
         <meta content="rALo" name="twitter:creator"/>
-        <meta name="twitter:image" content="/favicon.ico"/>
+        <meta name="twitter:image" content={baseUrl + "/favicon.ico"}/>
         <meta name="twitter:description" content="Poeta -  Escritor - Guionista - Dramaturgo - Director // Storyador" />
-        <link rel="shortcut icon" type="img/png" href="/favicon.ico"/>
-        <link rel="icon" type="img/png" href={window.location.pathname + "/favicon.ico"}/>
+        <link rel="shortcut icon" type="img/png" href={baseUrl + "/favicon.ico"}/>
+        <link rel="icon" type="img/png" href={baseUrl + "/favicon.ico"}/>
       </Head>
       <Component {...pageProps} />
     </>

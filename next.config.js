@@ -3,5 +3,8 @@ module.exports = {
   images: {
     loader: 'imgix',
     path: 'http://www.yosoyralo.com/',
-  },
+    domains: [
+      'http://www.yosoyralo.com/',
+    ],
+  }
 }
