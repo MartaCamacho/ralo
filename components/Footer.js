@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer className="footer-container">
-        <div className="footer-left-side">
+        <div className="footer-left-side footer-element">
         <Image
                 className="logo"
                 src="/images/logo.jpg"
@@ -15,19 +15,19 @@ const Footer = () => {
         <p className="">
           © {new Date().getFullYear()} — 
           <a
-            href="https://www.instagram.com/arrobaralo/"
-            className="text-gray-600 ml-1"
+            href="https://www.instagram.com/yosoyralo/"
             rel="noopener noreferrer"
             target="_blank"
           >
-             @arrobaralo
+             @yosoyralo
           </a>
         </p>
         </div>
-        <span className="footer-social">
+        <div className="footer-element marta-signature">Made with ♥ by <a href="https://www.linkedin.com/in/martacamachovargas/" rel="noopener noreferrer" target="_blank"><b>Marta</b></a></div>
+        <span className="footer-social footer-element">
           <a
             className=""
-            href="https://www.instagram.com/arrobaralo/"
+            href="https://www.instagram.com/yosoyralo/"
             target="_blank" rel="noreferrer"
           >
             <svg
@@ -44,7 +44,6 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            className="ml-3 text-gray-500"
             href="mailto:hola@yosoyralo.com"
             target="_blank" rel="noreferrer"
           >

@@ -16,11 +16,11 @@ const Body = ({language}, props) => {
               {
                 language === "spanish" ?
                 <>
-                Estoy trabajando para publicar mi primera antología, pero tengo más escritas. Más información muy pronto. Mientras tanto <a href="https://arrobaralo.wordpress.com/" target="_blank" rel="noreferrer">haz clic aquí</a> para visitar mi blog de poesía.
+                Actualmente estoy trabajando para publicar mi primera antología. Más información muy pronto. Mientras tanto <a href="https://arrobaralo.wordpress.com/" target="_blank" rel="noreferrer">haz clic aquí</a> para visitar mi blog de poesía.
                 </>
                 :
                 <>
-                I am currently working to publish my first anthology, but I have plenty more written. More information is coming soon. In the meantime, <a href="https://arrobaralo.wordpress.com/" target="_blank" rel="noreferrer">click here</a> to visit my poetry blog.
+                I am currently working to publish my first anthology. More information is coming soon. In the meantime, <a href="https://arrobaralo.wordpress.com/" target="_blank" rel="noreferrer">click here</a> to visit my poetry blog.
                 </>
               }
               
@@ -39,11 +39,11 @@ const Body = ({language}, props) => {
               {
                 language === "spanish" ?
                 <>
-              He escrito tres novelas, dos obras de teatro, innumerables guiones para series de televisión y películas, además de muchos relatos cortos y cuentos. Por el momento no he publicado nada, pero eso no tardará en cambiar. Hasta entonces <a href="https://arrobaralo.wordpress.com/2021/10/28/en-verano-la-leche-se-toma-hirviendo/"  target="_blank" rel="noreferrer">haz clic aquí</a> para leer mi relato {"En verano la leche se toma hirviendo"}.
+              He escrito tres novelas, dos obras de teatro, innumerables guiones para series de televisión y películas, además de muchos relatos cortos y cuentos. En noviembre de 2021 Publiqué <a href="https://www.amazon.es/dp/B09MPGT8PN/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=francisco+H&qid=1638102472&qsid=259-6801527-8888128&sr=8-5&sres=B08WKKLZCZ%2C8494607081%2C1910994316%2C8474231396%2CB09MPGT8PN%2C1777797853%2C8494339540%2C8897846157%2C8899086966%2C1356176887%2C8897846149%2C8498403464%2C149967788X%2C8498405068%2CB07ZDGCYSQ%2C167803097X%2C8491046518%2C1356033288%2C0976305216%2C8494240684" target="_blank" rel="noreferrer">en Amazon</a> mi primera novela: <span className="italic-text">Las desventuras y añoranzas de Francisco H</span>. También puedes <a href="https://arrobaralo.wordpress.com/2021/10/28/en-verano-la-leche-se-toma-hirviendo/"  target="_blank" rel="noreferrer">pulsar aquí</a> y leer mi relato: <span className="italic-text">{"En verano la leche se toma hirviendo"}</span>.
               </>
               :
               <>
-              I have written three novels, two plays, countless TV series and movie scripts, plus lots of short stories and tales.  I have not published anything yet, but that will not take long to change. Until then <a href="https://arrobaralo.wordpress.com/2021/10/28/en-verano-la-leche-se-toma-hirviendo/"  target="_blank" rel="noreferrer">click here</a> to read my tale {"En verano la leche se toma hirviendo"} in spanish.
+              I have written three novels, two plays, countless TV series and movie scripts, plus lots of short stories and tales. In November 2021 I published my first novel <a href="https://www.amazon.es/dp/B09MPGT8PN/ref=sr_1_5?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=francisco+H&qid=1638102472&qsid=259-6801527-8888128&sr=8-5&sres=B08WKKLZCZ%2C8494607081%2C1910994316%2C8474231396%2CB09MPGT8PN%2C1777797853%2C8494339540%2C8897846157%2C8899086966%2C1356176887%2C8897846149%2C8498403464%2C149967788X%2C8498405068%2CB07ZDGCYSQ%2C167803097X%2C8491046518%2C1356033288%2C0976305216%2C8494240684"  target="_blank" rel="noreferrer">on Amazon</a>: <span className="italic-text">Las desventuras y añoranzas de Francisco H</span>. You can also <a href="https://arrobaralo.wordpress.com/2021/10/28/en-verano-la-leche-se-toma-hirviendo/"  target="_blank" rel="noreferrer">click here</a> to read my tale <span className="italic-text">En verano la leche se toma hirviendo</span>. 
               </>
               }
               </p>
@@ -61,11 +61,11 @@ const Body = ({language}, props) => {
               {
                 language === "spanish" ?
                 <>
-                Colaboro con el fotógrafo José García (@jose35mm) en el proyecto Fotografía Imperfecta (@foto8rafia_imp). Soy parte del colectivo de humor NOT YET (@nnnnnotyet) donde a parte de grabar un Podcast y crear contenido gráfico proyectamos ofrecer vídeos muy pronto. <a href="http://www.notyet.es" target="_blank" rel="noreferrer">Haz clic aquí</a> para echarte unas risas.
+                Colaboro con el fotógrafo José García (@jose35mm) en el proyecto Fotografía Imperfecta (@foto8rafia_imp). Publico Podcast y creo contenido gráfico de humor con NOT YET (@nnnnnotyet). Haz <a href="http://www.notyet.es" target="_blank" rel="noreferrer">clic aquí</a> para echarte unas risas.
                 </>
                 :
                 <>
-                I collaborate with the photographer José García @ jose35mm in the Imperfect Photography project (@ foto8rafia_imp). I am part of the humor collective NOT YET (@nnnnnotyet) where, apart from recording a Podcast and creating graphic content, we plan to expand the project with videos. <a href="http://www.notyet.es" target="_blank" rel="noreferrer">Click here</a> to have a look.
+                I collaborate with the photographer José García @ jose35mm in the Imperfect Photography project (@ foto8rafia_imp). I am part of the humor collective NOT YET (@nnnnnotyet) where you can find a podcast and graphic content. <a href="http://www.notyet.es" target="_blank" rel="noreferrer">Click here</a> to have a laugh.
                 </>
               }
               </p>

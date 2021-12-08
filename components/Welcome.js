@@ -5,14 +5,7 @@ const Welcome = ({changeLanguage, language}, props) => {
     <section className="">
         <div className="top-page-container">
           <div className="top-section-container">
-            <div className="top-image">
-              {/* <Image
-                alt="Ralo background"
-                className="top-image-image"
-                src="/images/1200x500.jpg"
-                layout='fill'
-              /> */}
-            </div>
+            <div className="top-image"></div>
               <span className="top-flag-spain-image" onClick={() => changeLanguage('spanish')}>
                 <Image
                   alt="Ralo background"
@@ -50,13 +43,15 @@ const Welcome = ({changeLanguage, language}, props) => {
                 {
                 language === "spanish" ?
                 <>
-                <div>Poeta -  Escritor - Guionista</div>
-                <div>Dramaturgo - Director // <i>Story</i>ador</div>
+                <div>Poeta - Escritor - Guionista</div>
+                <div>Dramaturgo - Director</div>
+                <div><span className="italic-text">Story</span>ador</div>
                 </>
                 :
                 <>
                 <div>Poet - Writer - Scriptwriter </div>
-                <div>Playwriter - Director // <i>Story</i>ador</div>
+                <div>Playwriter - Director</div>
+                <div><span className="italic-text">Story</span>ador</div>
                 </>
                 }
                 </p>
@@ -66,9 +61,9 @@ const Welcome = ({changeLanguage, language}, props) => {
               <p className="">
               {
                 language === "spanish" ?
-              "Soy un hombre nacido y viviendo en España. rALo es el pseudónimo con el que firmo mis propuestas creativas. Me gusta utilizar un pseudónimo porque me ayuda a focalizar y separar esa parte de mi vida del resto. Tanto si te gusta lo que hago como si no, es irrelevante quien sea rALo." 
+              "Soy escritor, guionista y poeta, pero no en ese orden. Soy contador de historias. rALo es el pseudónimo con el que firmo mis propuestas creativas. Utilizo pseudónimo porque me ayuda a focalizar y separar esa parte de mi vida del resto. Tanto si te gusta lo que hago como si no, es irrelevante quien sea rALo." 
               :
-              " I am a man born and living in Spain. rALo is the pseudonym I use to sign all my creative work. I like to use a pseudonym because it helps me focus all my creative work and separate that part of my life from the rest. Whether you enjoy what rALo has to say or not, it is irrelevant who he is. "
+              "I am a writer, screenwriter and poet, but not in that order. I am a storyteller. rALo is the psudonym I use to sign my creative proposals. I use it because it helps me focus and split that part of my life from the rest. Whether if you like what I do or not, is irrelevant who rALo is."
               }
               </p>
             </div>

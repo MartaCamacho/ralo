@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
 html {
   height: 100%;
@@ -20,6 +20,11 @@ a {
 p {
   margin: 0;
   padding: 0;
+}
+
+.italic-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
 }
 
 .bg {
@@ -124,6 +129,12 @@ p {
   border-right: 1px solid black;
 }
 
+.top-text-left-side h2 {
+  color: #931b2f;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 .ralo-logo-rounded {
     border-radius: 50%;
 }
@@ -175,6 +186,10 @@ p {
   box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.158);
 }
 
+.footer-element {
+  width: 33.33%;
+}
+
 .footer-left-side {
   display: flex;
   align-items: center;
@@ -196,6 +211,22 @@ p {
 
 .footer-social {
   display: flex;
+  justify-content: flex-end;
+}
+
+.marta-signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marta-signature a {
+  margin-left: 3px;
+  color: black;
+}
+
+.marta-signature-bottom {
+  display: none;
 }
 
 .footer-social a {
@@ -217,6 +248,12 @@ p {
 }
 
 @media (max-width: 770px) {
+  body,
+  html {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
   .top-image {
     background-size: cover;
   }
@@ -233,6 +270,7 @@ p {
     min-width: 95vw;
     max-width: 95vw;
     flex-direction: column;
+    border-radius: 0px;
   }
 
 
@@ -244,5 +282,36 @@ p {
   .footer-left-side span {
     margin-right: 10px;
     padding-right: 10px;
+  }
+
+  .footer-container {
+    padding: 0 10px;
+  }
+
+  .footer-left-side span:not(:first-child) {
+    padding: 0 10px 0 3px;
+    margin: 0 10px 0 3px;
+  }
+
+  .marta-signature {
+    display: none;
+  }
+
+  .marta-signature-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #fff;
+    padding-bottom: 15px;
+  }
+
+  .marta-signature-bottom a {
+    color: black;
+    margin-left: 3px;
+  }
+
+  .footer-element {
+    width: auto;
   }
 }

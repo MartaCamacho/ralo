@@ -14,6 +14,7 @@ export default function IndexPage() {
       <Welcome changeLanguage={setLanguage} language={language}/>
       <Body language={language}/>
       <Footer />
+      <div className="footer-element marta-signature-bottom">Made with ♥ by <a href="https://www.linkedin.com/in/martacamachovargas/" rel="noopener noreferrer" target="_blank"><b>Marta</b></a></div>
     </div>
   );
 }
