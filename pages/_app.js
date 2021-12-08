@@ -25,7 +25,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="twitter:image" content="/favicon.ico"/>
         <meta name="twitter:description" content="Poeta -  Escritor - Guionista - Dramaturgo - Director // Storyador" />
         <link rel="shortcut icon" type="img/png" href="/favicon.ico"/>
-        <link rel="icon" type="img/png" href="/favicon.ico"/>
+        <link rel="icon" type="img/png" href={window.location.pathname + "/favicon.ico"}/>
       </Head>
       <Component {...pageProps} />
     </>
