@@ -29,10 +29,10 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="twitter:title" content="rALo"/>
         <meta content="yosoyralo.com" name="twitter:site"/>
         <meta content="rALo" name="twitter:creator"/>
-        <meta name="twitter:image" content={baseUrl + "/favicon.ico"}/>
+        <meta name="twitter:image" content={baseUrl + "favicon.ico"}/>
         <meta name="twitter:description" content="Poeta -  Escritor - Guionista - Dramaturgo - Director // Storyador" />
-        <link rel="shortcut icon" type="img/png" href={baseUrl + "/favicon.ico"}/>
-        <link rel="icon" type="img/png" href={baseUrl + "/favicon.ico"}/>
+        <link rel="shortcut icon" type="img/png" href={baseUrl + "favicon.ico"}/>
+        <link rel="icon" type="img/png" href={baseUrl + "favicon.ico"}/>
       </Head>
       <Component {...pageProps} />
     </>

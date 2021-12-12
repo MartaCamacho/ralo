@@ -61,11 +61,11 @@ const Body = ({language}, props) => {
               {
                 language === "spanish" ?
                 <>
-                Colaboro con el fotógrafo José García (@jose35mm) en el proyecto Fotografía Imperfecta (@foto8rafia_imp). Publico Podcast y creo contenido gráfico de humor con NOT YET (@nnnnnotyet). Haz <a href="http://www.notyet.es" target="_blank" rel="noreferrer">clic aquí</a> para echarte unas risas.
+                Colaboro con el fotógrafo José García <a href="https://www.instagram.com/jose35mm/" target="_blank" rel="noreferrer">(@jose35mm)</a> en el proyecto Fotografía Imperfecta <a href="https://www.instagram.com/foto8rafia_imp/" target="_blank" rel="noreferrer">(@foto8rafia_imp)</a>. Publico Podcast y creo contenido gráfico de humor con NOT YET <a href="https://www.instagram.com/nnnnnotyet/" target="_blank" rel="noreferrer">(@nnnnnotyet)</a>. Haz <a href="http://www.notyet.es" target="_blank" rel="noreferrer">clic aquí</a> para echarte unas risas.
                 </>
                 :
                 <>
-                I collaborate with the photographer José García @ jose35mm in the Imperfect Photography project (@ foto8rafia_imp). I am part of the humor collective NOT YET (@nnnnnotyet) where you can find a podcast and graphic content. <a href="http://www.notyet.es" target="_blank" rel="noreferrer">Click here</a> to have a laugh.
+                I collaborate with the photographer José García <a href="https://www.instagram.com/jose35mm/" target="_blank" rel="noreferrer">@jose35mm</a> in the Imperfect Photography project <a href="https://www.instagram.com/foto8rafia_imp/" target="_blank" rel="noreferrer">(@foto8rafia_imp)</a>. I am part of the humor collective NOT YET <a href="https://www.instagram.com/nnnnnotyet/" target="_blank" rel="noreferrer">(@nnnnnotyet)</a> where you can find a podcast and graphic content. <a href="http://www.notyet.es" target="_blank" rel="noreferrer">Click here</a> to have a laugh.
                 </>
               }
               </p>
